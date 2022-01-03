@@ -8,6 +8,6 @@
   * [Cloud](./tutorials/cloud/index)
   * [Java](./tutorials/java/index)
 
-* [About](./about/index)
+* [درباره](./about/index)
 
 * [Contact](./contact/index)

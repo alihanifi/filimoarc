@@ -1,13 +1,13 @@
 <!-- docs/_sidebar.md -->
 
 
-* [صفحه اصلی](./)
+* [Main Menu](./)
 
 * [Tutorials](./tutorials/index)
   * [Tomcat](./tutorials/tomcat/index)
   * [Cloud](./tutorials/cloud/index)
   * [Java](./tutorials/java/index)
 
-* [درباره](./about/index)
+* [About](./about/index)
 
 * [Contact](./contact/index)

@@ -1,12 +1,7 @@
 <!-- docs/_sidebar.md -->
-
-
 * [Main Menu](./)
+* [1. Question](./question/index)
 
-* [Tutorials](./tutorials/index)
-  * [Tomcat](./tutorials/tomcat/index)
-  * [Cloud](./tutorials/cloud/index)
-  * [Java](./tutorials/java/index)
 
 * [About](./about/index)
 

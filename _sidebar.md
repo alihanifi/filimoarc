@@ -1,8 +1,6 @@
 <!-- docs/_sidebar.md -->
-* [Main Menu](./)
-* [1. Question](./question/index)
-
-
-* [About](./about/index)
-
-* [Contact](./contact/index)
+* [صفحه اصلی](./)
+* [فصل‌ها](./section/index)
+    * [فصل اول](./section/1/index)
+    * [فصل دوم](./section/2/index)
+    * [فصل سوم](./section/3/index)

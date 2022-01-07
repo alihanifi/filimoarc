@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
-* [صفحه اصلی](./)
+* [صفحه اصلی](./index)
 * [فصل‌ها](./section/index)
     * [فصل اول](./section/1/index)
         * [محدوده](./section/1/index?id=محدوده)

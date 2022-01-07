@@ -24,7 +24,13 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.2/viewer.js" integrity="sha512-taR40V17AK2+3RjqzCYkczb0/hTHuQCid0kBs0I2g6DqkFjkTcAIpsa+4PzGuWcRica2AOZQmz4pNPj4InFR8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
    <script>
-   const viewer = new Viewer(document.getElementById('image'), { inline: true, viewed() { viewer.zoomTo(1); },});
+   var vs = [];
+   var x = document.getElementsByClassName("imgx");
+   var i;
+   for (i = 0; i < x.length; i++) {
+       vs[i] = new Viewer(x[i], { inline: true, viewed() { viewer.zoomTo(1); },});
+    }
+    }
    </script>
 </body>
 </html>

@@ -24,7 +24,7 @@
 نیازمندی‌های کارکردی سامانۀ فیلم‌پلاس را می‌توان به‌صورت نمودار کاربری ارائه شده در شکل (1) نمایش داد که در آن سعی شده است تا موارد کاربری اصلی نمایش داده شود و برای درک بهتر و عدم ایجاد پیچیدگی، از ورود به جزئیات پرهیز شده است. مثلاً گزارش‌گیری، یکی از پایه‌ای‌ترین موارد کاربری برای کاربران ارشد و معمولی است، اما برای جلوگیری از ازدحام ترسیم نشده است. در جدول (1) موارد کاربری تشریح شده‌اند.
 
 <figure>
-    <img src="https://github.com/alihanifi/filmplusarc/blob/main/images/Use%20Case%20Table.jpg?raw=true" width="200">
+    <img class="imgx" src="https://github.com/alihanifi/filmplusarc/blob/main/images/Use%20Case%20Table.jpg?raw=true" width="200">
     <figcaption>جدول(1): موارد کاربری سامانۀ فیلم‌پلاس</figcaption>
 </figure>
 

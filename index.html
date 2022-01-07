@@ -30,6 +30,13 @@
    for (i = 0; i < x.length; i++) {
        vs[i] = new Viewer(x[i], { inline: true, viewed() { viewer.zoomTo(1); },});
     }
+
+    const viewer = new Viewer(document.getElementsByClassName('imgx')[0], {
+  inline: true,
+  viewed() {
+    viewer.zoomTo(1);
+  },
+});
    </script>
 </body>
 </html>

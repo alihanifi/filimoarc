@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
   <link rel="stylesheet" href="rtl-style.css"></link>
   <link rel="stylesheet" type="text/css" href="http://font.limil.org/roya.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.2/viewer.css" integrity="sha512-HGWrJz+Lr07phD0DNoLsSVwn3przno/eSLf1cGOrLzr6c7NUZROZJPhQdSPmLHNbsO0HP2UfUnpKTMiVxonEHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <div id="app"></div>
@@ -20,23 +19,28 @@
       loadSidebar: true
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.2/viewer.js" integrity="sha512-taR40V17AK2+3RjqzCYkczb0/hTHuQCid0kBs0I2g6DqkFjkTcAIpsa+4PzGuWcRica2AOZQmz4pNPj4InFR8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   <script>
-   var vs = [];
-   var x = document.getElementsByClassName("imgx");
-   var i;
-   for (i = 0; i < x.length; i++) {
-       vs[i] = new Viewer(x[i], { inline: true, viewed() { viewer.zoomTo(1); },});
+  <script type="text/javascript">
+    var modal = document.getElementById('inlineImg');
+    var images = document.getElementsByClassName('inlImg');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+
+    for (var i = 0; i < images.length; i++) {
+        var img = images[i];
+        img.onclick = function(evt) {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
     }
 
-    const viewer = new Viewer(document.getElementsByClassName('imgx')[0], {
-  inline: true,
-  viewed() {
-    viewer.zoomTo(1);
-  },
-});
-   </script>
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() {
+    modal.style.display = "none";
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 </html>

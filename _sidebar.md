@@ -2,5 +2,8 @@
 * [صفحه اصلی](./)
 * [فصل‌ها](./section/index)
     * [فصل اول](./section/1/index)
+        * [محدوده](./section/1/index)
+        * [اهداف](./section/1/index)
+        * [محدودیت‌ها](./section/1/index)
     * [فصل دوم](./section/2/index)
     * [فصل سوم](./section/3/index)

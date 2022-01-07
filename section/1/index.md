@@ -25,7 +25,7 @@
 
 
 <figure>
-    <img id="inlineImg" class="inlImg" src="https://github.com/alihanifi/filmplusarc/blob/main/images/Use%20Case%20Table.jpg?raw=true" width="300">
+    <img id="inlineImg" class="inlImg" src="https://github.com/alihanifi/filmplusarc/blob/main/images/Use%20Case%20Table.png?raw=true" width="300">
     <figcaption>جدول(1): موارد کاربری سامانۀ فیلم‌پلاس</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@
 
 
 <figure>
-    <img id="inlineImg" class="inlImg" src="https://github.com/alihanifi/filmplusarc/blob/main/images/Component%20Diagram.jpg?raw=true" width="300">
+    <img id="inlineImg" class="inlImg" src="https://github.com/alihanifi/filmplusarc/blob/main/images/Component%20Diagram.png?raw=true" width="300">
     <figcaption>شکل (1): نمودار مورد کاربری سامانۀ فیلم‌پلاس</figcaption>
 </figure>
 

@@ -12,6 +12,11 @@
 </head>
 <body>
   <div id="app"></div>
+  <div id="imgModal" class="modal">
+    <span onclick="closeImg();" class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
   <script>
     window.$docsify = {
       name: 'FilmPlus Architecture',
@@ -20,6 +25,10 @@
     }
   </script>
   <script type="text/javascript">
+  function closeImg()
+  {
+      modal.style.display = "none";
+  }
     var modal = document.getElementById('inlineImg');
     var images = document.getElementsByClassName('inlImg');
     var modalImg = document.getElementById("img01");
@@ -32,12 +41,6 @@
             modalImg.src = this.src;
             captionText.innerHTML = this.alt;
         }
-    }
-
-    var span = document.getElementsByClassName("close")[0];
-
-    span.onclick = function() {
-    modal.style.display = "none";
     }
   </script>
   <!-- Docsify v4 -->
